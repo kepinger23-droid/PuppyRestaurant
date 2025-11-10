@@ -1,6 +1,15 @@
+@font-face {
+    font-family: Montauk-Bold;
+    src: url("../fonts/Montauk-Bold.otf");
+}
 .NavBG {
     background-image: url(../assets/bgtexture.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+.NavColor { 
+    color: #5F002B;
+    font-size: 30px;
+    font-family: Montauk-Bold;
 }
