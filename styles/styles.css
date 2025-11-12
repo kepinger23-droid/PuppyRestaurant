@@ -1,0 +1,13 @@
+body {
+    background-image: url(/assets/bgtexture.jpg);
+    margin-left: 3rem; 
+    margin-right: 3rem;
+}
+
+.imgfoot{
+    height: 40%;
+}
+
+.footfont{
+    font-size: 10px;
+}
