@@ -17,8 +17,20 @@ color: #5F002B;
 max-width: 100%;
 height: auto;
 }
+.imgfoot{
+    height: 40%;
+}
+.footfont{
+    font-size: 10px;
+}
 @media (min-width: 1200px)
 {.fontsize{
-    font-size:  11px;;
+    font-size:  13px;
+}
+}
+@media (max-width: 450px)
+{
+.fontsize{
+    font-size:  13px;
 }
 }
