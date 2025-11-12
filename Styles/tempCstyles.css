@@ -1,0 +1,24 @@
+.imgcon{
+max-width: 100%;
+height: auto;
+}
+body{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    background-image: url(/assets/bgtexture.jpg);
+}
+.tc-biege{
+color: #5F002B;
+}
+.fontsize{
+    font-size: 9px;
+}
+.imgM{
+max-width: 100%;
+height: auto;
+}
+@media (min-width: 1200px)
+{.fontsize{
+    font-size:  11px;;
+}
+}
