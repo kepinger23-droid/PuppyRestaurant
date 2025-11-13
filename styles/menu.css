@@ -55,12 +55,9 @@ body {
 .pTop{
     padding-top: 100px;
 }
-.imgfoot{
-    width: 20%;
-}
 @media (max-width: 768px){}
 .imgfoot{
-    width: 30%;
+    width: 40%;
 }
 .footfont{
     color: #5F002B;
