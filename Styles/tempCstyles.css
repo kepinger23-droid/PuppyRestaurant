@@ -1,0 +1,84 @@
+@font-face{
+    font-family: Montauk-Bold;
+    src: url(../fonts/Montauk-Bold.otf);
+}
+@font-face {
+    font-family: Montauk-Regular;
+    src: url(../fonts/Montauk-Regular.otf);
+}
+@font-face {
+    font-family: Montauk-Light;
+    src: url(../fonts/Montauk-Light.otf);
+}
+@font-face {
+    font-family: Montauk-Italic;
+    src: url(../fonts/Montauk-Italic.otf);
+}
+
+.imgcon{
+max-width: 100%;
+height: auto;
+}
+body{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    background-image: url(/assets/bgtexture.jpg);
+}
+.tc-biege{
+color: #5F002B;
+font-family: Montauk-Regular;
+
+}
+.htc-biege{
+color: #5F002B;
+font-family: Montauk-Italic;
+
+}
+.fontsize{
+    font-size: 10px;
+}
+.imgM{
+max-width: 100%;
+height: auto;
+}
+.imgfoot{
+    width: 20%;
+}
+.footfont{
+    font-size: 14px;
+    font-family:Montauk-Light;
+}
+.imgG{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 15px;
+}
+@media (min-width: 1200px)
+{.fontsize{
+    font-size:  15px;
+}
+}
+@media (max-width: 768px){
+    .imgG{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    gap: 15px;
+}
+.imgfoot{
+    width: 30%;
+}
+}
+@media (max-width: 450px)
+{
+.fontsize{
+    font-size:  13px;
+}
+.imgG{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: auto;
+    gap: 15px;
+}
+}
