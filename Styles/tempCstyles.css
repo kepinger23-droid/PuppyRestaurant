@@ -54,11 +54,6 @@ height: auto;
     grid-template-rows: auto;
     gap: 15px;
 }
-@media (min-width: 1200px)
-{.fontsize{
-    font-size:  15px;
-}
-}
 @media (max-width: 768px){
     .imgG{
     display: grid;
@@ -81,4 +76,35 @@ height: auto;
     grid-template-rows: auto;
     gap: 15px;
 }
+}
+@media (min-width: 1800px){
+    body{
+    margin: 0 0;
+    background-image: url(/assets/bgtexture.jpg);
+}
+.imgG{
+    display: grid;
+    grid-template-columns: repeat(4,398px);
+    grid-template-rows: auto;
+    gap: 15px;}
+.imgcon{
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+body{
+    margin-left: 10rem;
+    margin-right: 6rem;
+    background-image: url(/assets/bgtexture.jpg);
+}
+.htc-biege{
+color: #5F002B;
+font-family: Montauk-Italic;
+font-size: 50px;
+}
+.tc-biege{
+    font-size: 20px;
+}
+.footfont{
+    font-size: 20px;
+    font-family:Montauk-Light;}
 }
