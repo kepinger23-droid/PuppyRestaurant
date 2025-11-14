@@ -20,8 +20,8 @@
 }
 .bodycon {
     background-image: url(/assets/bgtexture.jpg);
-    /* margin-left: 3rem; 
-    margin-right: 3rem; */
+     margin-left: 3rem; 
+    margin-right: 3rem; 
     color: #5F002B;
 }
 .navFont{ 
@@ -194,7 +194,7 @@ object-fit: cover;
     flex-direction: column;
     } 
 }
-@media (min-width: 1200px){
+@media (min-width: 1900px){
     .bodycon{
     margin: 0 0;
     background-image: url(/assets/bgtexture.jpg);
@@ -209,8 +209,8 @@ object-fit: cover;
     aspect-ratio: 1/1;
 }
 .bodycon{
-    /* margin-left: 10rem;
-    margin-right: 6rem; */
+     margin-left: 10rem;
+    margin-right: 6rem; 
     background-image: url(/assets/bgtexture.jpg);
 }
 .htc-biege{
