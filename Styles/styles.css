@@ -48,19 +48,31 @@ body {
     margin-left: 40px;
     margin-right: 20px;
     color: #5F002B;
+    margin-bottom: 0%;
     font-family: Montauk-Light;
 }
 .menuBorder{
+    width: 92%;
+    margin: 0 6.3%;
     border-bottom: 1px solid #5F002B;
 }
-.menuBorder2{
-    padding-top: 5px;
-    margin-left: 40px;
-} 
+.borderPad{
+    margin-bottom: 40px;
+}
 .menuFont4{
     margin-left: 40px;
     color: #5F002B;
     font-family: Montauk-Light;
+}
+.priceColor{
+    font-family: Montauk-Light;
+    font-size: 30px;
+    color: #5F002B;
+}
+@media (min-width: 780px) {
+    .container1 {
+    flex-direction: column;
+    } 
 }
 .pTop{
     padding-top: 100px;
@@ -78,7 +90,7 @@ p {
 }
 
 .footfont{
-    font-size: 10px;
+    font-size: 20px;
 }
 
 .imgcon{
