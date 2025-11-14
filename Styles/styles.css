@@ -15,7 +15,7 @@ p {
 }
 
 .nav-item {
-    font-size: larger;
+    font-size: 22px;
     color: #5F002B;
     font-family: Fugaz One;
 
@@ -46,6 +46,7 @@ p {
 }
 
 .card h1 {
+    font-family: Fugaz One;
     font-size: 20px;
 }
 }
