@@ -14,6 +14,10 @@
     font-family: Montauk-Italic;
     src: url(../fonts/Montauk-Italic.otf);
 }
+@font-face {
+    font-family: Fugaz-One;
+    src: url(../fonts/FugazOne-Regular.ttf);
+}
 body {
     background-image: url(/assets/bgtexture.jpg);
     margin-left: 3rem; 
@@ -22,21 +26,23 @@ body {
 }
 .navFont{ 
     color: #5F002B;
-    font-family: Montauk-Bold;
+    font-family: Fugaz-One;
 }
 .menuFont{
+    padding-top: 10px;
+    padding-bottom: 10px;
     color: #5F002B;
-    font-size: 60px;
-    font-family: Montauk-Bold;
+    font-family: Fugaz-One;
 }
 .menuISize{
     width: 100%;
     height: auto;
 }
 .menuFont2{
+    margin-top: 40px;
     margin-left: 40px;
     color: #5F002B;
-    font-family: Montauk-Bold;
+    font-family: Fugaz-One;
 }
 .menuFont3{
     margin-left: 40px;
@@ -47,6 +53,10 @@ body {
 .menuBorder{
     border-bottom: 1px solid #5F002B;
 }
+.menuBorder2{
+    padding-top: 5px;
+    margin-left: 40px;
+} 
 .menuFont4{
     margin-left: 40px;
     color: #5F002B;
