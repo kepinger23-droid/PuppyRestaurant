@@ -168,6 +168,13 @@ p {
     grid-template-rows: auto;
     gap: 15px;
 }
+
+.mid-card-h1 {
+    font-size: 26px;
+    font-family: Fugaz-One;
+    color: #5F002B;
+}
+
 .imgfoot{
     width: 30%;
 }
@@ -214,8 +221,8 @@ p {
     aspect-ratio: 1/1;
 }
 .bodycon{
-    /* margin-left: 10rem;
-    margin-right: 6rem; */
+    margin-left: 10rem;
+    margin-right: 6rem; 
     background-image: url(/assets/bgtexture.jpg);
 }
 .htc-biege{

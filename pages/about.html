@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>About</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles/styles.css">
 </head>
 
@@ -14,12 +14,13 @@
 
     <!-- Main Container -->
 
-    <div class="container mx-auto"  style="font-family: Fugaz One; color: #5F002B;">
+    <div class="container-fluid" style="font-family: Fugaz One; color: #5F002B;">
 
         <!-- Navbar -->
         <nav class="navbar navbar-expand-md">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html"> <img src="../assets/MuzzlesLogo.png" alt="Muzzle Logo"></a>
+                <a class="navbar-brand" href="../index.html"> <img src="../assets/MuzzlesLogo.png"
+                        alt="Muzzle Logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -51,29 +52,44 @@
         </nav>
 
         <!-- Main Content with Picture -->
-        <div class="container">
-            <div class="card mb-3 rounded-0" style="max-width: 100%;">
-                <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="../assets/AboutMain.jpg" class="img-fluid rounded-0" alt="Main Dog Image"
-                            style="width: 100%;">
+         <div class="row">
+        <div class="col">
+            <div class="card mb-3 rounded-0" style="max-width: 100%; background: none;">
+                <div class="row">
+                    <div class="col-lg p-0">
+                        <img src="../assets/AboutMain.jpg" class="img-fluid rounded-0" alt="Main Dog Image">
                     </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h1 class="card-title htc-biege">The Story Behind the Grill</h1>
-                            <p class="card-text" style="font-size: small;">Malesuada fames ac turpis egestas integer
-                                eget aliquet nibh praesent.
-                                Mattis molestie a iaculis at erat pellentesque adipiscing commodo. Quisque non tellus
-                                orci ac auctor augue. Tincidunt augue interdum velit euismod in pellentesque massa. Vel
-                                pharetra vel turpis nunc. Risus pretium quam vulputate dignissim suspendisse in est.
-                                Viverra nibh cras pulvinar mattis nunc sed blandit libero. Aenean pharetra magna ac
-                                placerat. Etiam sit amet nisl purus. Sollicitudin tempor id eu nisl nunc mi ipsum. Non
-                                tellus orci ac auctor augue. Suspendisse sed nisi lacus sed viverra tellus in hac.
-                                Egestas tellus rutrum tellus pellentesque eu tincidunt tortor. Dignissim sodales ut eu
-                                sem integer vitae. Facilisis magna etiam tempor orci eu. Pharetra pharetra massa massa
-                                ultricies mi quis. Mattis rhoncus urna neque viverra justo nec. </p>
-                            <p class="card-text"><small class="text-body-secondary"></small></p>
-                        </div>
+
+                    <div class="col-lg-8 bg-light ms-lg-3 p-0">
+                        <h1 class="ms-3">The Story Behind the Grill</h1>
+                        <p class="ms-3">Malesuada fames ac turpis egestas integer eget aliquet nibh praesent. Mattis
+                            molestie a iaculis
+                            at erat pellentesque adipiscing commodo. Quisque non tellus orci ac auctor augue. Tincidunt
+                            augue interdum velit euismod in pellentesque massa. Vel pharetra vel turpis nunc. Risus
+                            pretium
+                            quam vulputate dignissim suspendisse in est. Viverra nibh cras pulvinar mattis nunc sed
+                            blandit
+                            libero. Aenean pharetra magna ac placerat. Etiam sit amet nisl purus. Sollicitudin tempor id
+                            eu
+                            nisl nunc mi ipsum. Non tellus orci ac auctor augue. Suspendisse sed nisi lacus sed viverra
+                            tellus in hac. Egestas tellus rutrum tellus pellentesque eu tincidunt tortor. Dignissim
+                            sodales
+                            ut eu sem integer vitae. Facilisis magna etiam tempor orci eu. <br><br>Pharetra pharetra
+                            massa massa
+                            ultricies mi quis. Mattis rhoncus urna neque viverra justo nec. Egestas purus viverra
+                            accumsan
+                            in nisl nisi scelerisque. Morbi tempus iaculis urna id. Aenean pharetra magna ac placerat.
+                            Mi
+                            proin sed libero enim sed faucibus turpis in. Et ultrices neque ornare aenean euismod.
+                            Quisque
+                            sagittis purus sit amet. <br><br>Pharetra pharetra massa massa
+                            ultricies mi quis. Mattis rhoncus urna neque viverra justo nec. Egestas purus viverra
+                            accumsan
+                            in nisl nisi scelerisque. Morbi tempus iaculis urna id. Aenean pharetra magna ac placerat.
+                            Mi
+                            proin sed libero enim sed faucibus turpis in. Et ultrices neque ornare aenean euismod.
+                            Quisque
+                            sagittis purus sit amet. </p>
                     </div>
                 </div>
             </div>
@@ -82,16 +98,17 @@
 
             <!-- Tab/Divider with text  'Our Team'-->
 
-            <div class="bg-light text-center my-4">
-                <div>
+            <div class="row">
+                <div class="col bg-light text-center my-4">
                     <h1>Our Team</h1>
                 </div>
             </div>
 
+
             <!-- Cards Section -->
             <!-- 1st Row -->
             <div class="row">
-                <div class="img-row">
+                <div class="img-row p-0">
                 <div class="col mx-1 my-1">
                     <div class="card rounded-0" style="width: 100%;">
                         <img src="../assets/doxie3.jpg" class="card-img-top rounded-0" alt="Dog Image">
@@ -124,34 +141,46 @@
 
             <!-- 2nd Row -->
             <div class="row my-0.5">
-                <div class="img-row">
-                <div class="col mx-1 my-1">
-                    <div class="card rounded-0" style="width: 100%;">
-                        <img src="../assets/novascotia.jpg" class="card-img-top rounded-0" alt="Dog Image">
-                        <div class="card-body">
-                            <h1 class="htc-biege">Willow</h1>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sed elementum tempus egestas sed sed risus. Feugiat scelerisque varius morbi enim. Scelerisque eu ultrices vitae auctor eu augue ut lectus arcu. Odio facilisis mauris sit amet massa vitae..</p>
+                <div class="img-row p-0">
+                    <div class="col mx-1 my-1">
+                        <div class="card rounded-0" style="width: 100%;">
+                            <img src="../assets/novascotia.jpg" class="card-img-top rounded-0" alt="Dog Image">
+                            <div class="card-body">
+                                <h1 class="htc-biege">Willow</h1>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sed elementum
+                                    tempus egestas sed sed risus. Feugiat scelerisque varius morbi enim. Scelerisque eu
+                                    ultrices vitae auctor eu augue ut lectus arcu. Odio facilisis mauris sit amet massa
+                                    vitae..</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col mx-1 my-1">
-                    <div class="card rounded-0" style="width: 100%;">
-                        <img src="../assets/doxie2.jpg" class="card-img-top rounded-0" alt="Dog Image">
-                        <div class="card-body">
-                            <h1 class="htc-biege">Skittles</h1>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sed elementum tempus egestas sed sed risus. Feugiat scelerisque varius morbi enim. Scelerisque eu ultrices vitae auctor eu augue ut lectus arcu. Odio facilisis mauris sit amet massa vitae.</p>
+                    <div class="col mx-1 my-1">
+                        <div class="card rounded-0" style="width: 100%;">
+                            <img src="../assets/doxie2.jpg" class="card-img-top rounded-0" alt="Dog Image">
+                            <div class="card-body">
+                                <h1 class="htc-biege">Skittles</h1>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sed elementum
+                                    tempus egestas sed sed risus. Feugiat scelerisque varius morbi enim. Scelerisque eu
+                                    ultrices vitae auctor eu augue ut lectus arcu. Odio facilisis mauris sit amet massa
+                                    vitae.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col mx-1 my-1">
-                    <div class="card rounded-0" style="width: 100%;">
-                        <img src="../assets/staffie.jpg" class="card-img-top rounded-0" alt="Dog Image">
-                        <div class="card-body">
-                            <h1 class="htc-biege">Mario</h1>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sed elementum tempus egestas sed sed risus. Feugiat scelerisque varius morbi enim. Scelerisque eu ultrices vitae auctor eu augue ut lectus arcu. Odio facilisis mauris sit amet massa vitae.</p>
+                    <div class="col mx-1 my-1">
+                        <div class="card rounded-0" style="width: 100%;">
+                            <img src="../assets/staffie.jpg" class="card-img-top rounded-0" alt="Dog Image">
+                            <div class="card-body">
+                                <h1 class="htc-biege">Mario</h1>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sed elementum
+                                    tempus egestas sed sed risus. Feugiat scelerisque varius morbi enim. Scelerisque eu
+                                    ultrices vitae auctor eu augue ut lectus arcu. Odio facilisis mauris sit amet massa
+                                    vitae.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
                 </div>
             </div>
 
@@ -175,11 +204,11 @@
             </div>
         </div>
     </div>
-    </div>
+</div>
 
-    </div>
 
-    </div>
+
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
