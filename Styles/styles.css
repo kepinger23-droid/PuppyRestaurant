@@ -73,11 +73,6 @@
     font-size: 30px;
     color: #5F002B;
 }
-@media (min-width: 780px) {
-    .container1 {
-    flex-direction: column;
-    } 
-}
 .pTop{
     padding-top: 100px;
 }
@@ -111,7 +106,7 @@ p {
 }
 .htc-biege{
     color: #5F002B;
-    font-family: Montauk-Italic;
+    font-family: Fugaz-One;
     
 }
 .fontsize{
@@ -196,8 +191,12 @@ p {
     width: 50%;
 }
 
-
-@media (min-width: 1200px){
+@media (min-width: 780px) {
+    .container1 {
+    flex-direction: column;
+    } 
+}
+@media (min-width: 1900px){
     .bodycon{
     margin: 0 0;
     background-image: url(/assets/bgtexture.jpg);
@@ -212,13 +211,13 @@ p {
     aspect-ratio: 1/1;
 }
 .bodycon{
-    margin-left: 10rem;
-    margin-right: 6rem;
+    /* margin-left: 10rem;
+    margin-right: 6rem; */
     background-image: url(/assets/bgtexture.jpg);
 }
 .htc-biege{
 color: #5F002B;
-font-family: Montauk-Italic;
+font-family: Fugaz-One;
 font-size: 50px;
 }
 .tc-biege{
