@@ -211,8 +211,8 @@ p {
     aspect-ratio: 1/1;
 }
 .bodycon{
-    /* margin-left: 10rem;
-    margin-right: 6rem; */
+    margin-left: 10rem;
+    margin-right: 6rem; 
     background-image: url(/assets/bgtexture.jpg);
 }
 .htc-biege{
