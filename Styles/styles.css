@@ -1,19 +1,23 @@
-@font-face{
+@font-face {
     font-family: Montauk-Bold;
     src: url(../fonts/Montauk-Bold.otf);
 }
+
 @font-face {
     font-family: Montauk-Regular;
     src: url(../fonts/Montauk-Regular.otf);
 }
+
 @font-face {
     font-family: Montauk-Light;
     src: url(../fonts/Montauk-Light.otf);
 }
+
 @font-face {
     font-family: Montauk-Italic;
     src: url(../fonts/Montauk-Italic.otf);
 }
+
 @font-face {
     font-family: Fugaz-One;
     src: url(../fonts/FugazOne-Regular.ttf);
@@ -21,32 +25,39 @@
 
 body {
     background-image: url(/assets/bgtexture.jpg);
-    margin-left: 3rem; 
+    margin-left: 3rem;
     margin-right: 3rem;
     color: #5F002B;
-    font-family: Fugaz One;
+    font-family: Montauk-Regular;
 }
 
 h1 {
     color: #5F002B;
+     font-family: Montauk-Bold;
 }
 
 p {
     color: #5F002B;
+     font-family: Montauk-Regular;
 }
 
 .nav-item {
     font-size: 22px;
     color: #5F002B;
-    font-family: Fugaz One;
+    font-family: Montauk-Italic;
 
-} 
+}
 
-.imgfoot{
+.card h1 {
+    font-family: Montauk-Bold;
+    color: #5F002B;
+}
+
+.imgfoot {
     width: 30%;
 }
 
-.footfont{
+.footfont {
     font-size: 16px;
 }
 
@@ -56,20 +67,22 @@ p {
     }
 
     .nav-item {
-    font-size: 30px;
-} 
+        font-size: 30px;
+    }
+
     
+
 }
 
-@media (max-width: 768px){
-.imgfoot{
-    width: 30%;
-}
+@media (max-width: 768px) {
+    .imgfoot {
+        width: 30%;
+    }
 
-.card h1 {
-    font-family: Fugaz One;
-    font-size: 20px;
-}
+    .card h1 {
+
+        font-size: 20px;
+    }
 }
 
 @media (min-width: 450px) {
