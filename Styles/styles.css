@@ -114,7 +114,10 @@ p {
     font-size: 10px;
 }
 .imgPad{
-    margin-right: 200px;
+    margin-right: 300px;
+}
+.imgPad2{
+    margin-left: 400px;
 }
 .imgM{
 max-width: 100%;
@@ -131,13 +134,13 @@ object-fit: cover;
     font-family:Montauk-Light;
 }
 .footPad{
-    margin-left: 200px;
+    margin-left: 400px;
 }
 .footPad2{
-    margin-right: 165px;
+    margin-right: 265px;
 }
 .footPad3{
-    margin-right: 190px;
+    margin-right: 290px;
 }
 .imgG{
     display: grid;
